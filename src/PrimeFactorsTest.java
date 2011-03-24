@@ -1,4 +1,7 @@
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+
+import java.util.ArrayList;
 
 import org.junit.Test;
 
@@ -9,4 +12,8 @@ public class PrimeFactorsTest {
 		assertTrue("The compuler isn't feeling well today...", true);
 	}
 
+	@Test
+	public void testOne() {
+		assertEquals(new ArrayList<Integer>(), PrimeNumbers.generatePrimes(1));
+	}
 }
