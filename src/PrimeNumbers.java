@@ -5,7 +5,7 @@ public class PrimeNumbers {
 
 	public static ArrayList<Integer> generatePrimes(int n) {
 		
-		return null;
+		return new ArrayList<Integer>();
 	}
 
 }
