@@ -32,6 +32,18 @@ public class PrimeNumbers {
 		if (n > 2) {
 			ret.add(2);
 		}
+		for(int i = 3; i < n; i+=2) {
+			boolean prime = true;
+			for(int j = 3; i < j; j+=2) {
+				if((i%j) == 0) {
+					prime = false;
+					break;
+				}
+			}
+			if(prime) {
+				ret.add(i);
+			}
+		}
 		return ret;
 	}
 }
