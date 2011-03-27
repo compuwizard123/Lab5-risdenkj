@@ -28,6 +28,10 @@ public class PrimeNumbers {
 	 * @return A list of primes.
 	 */
 	public static ArrayList<Integer> actuallyGeneratePrimes(int n) {
-		return new ArrayList<Integer>();
+		ArrayList<Integer> ret = new ArrayList<Integer>();
+		if (n > 2) {
+			ret.add(2);
+		}
+		return ret;
 	}
 }
