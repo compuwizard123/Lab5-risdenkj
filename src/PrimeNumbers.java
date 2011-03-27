@@ -19,4 +19,7 @@ public class PrimeNumbers {
 		return ret;
 	}
 
+	public static ArrayList<Integer> actuallyGeneratePrimes(int n) {
+		return new ArrayList<Integer>();
+	}
 }
