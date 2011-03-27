@@ -5,7 +5,11 @@ import java.util.ArrayList;
 import org.junit.Test;
 
 public class TestGeneratePrimes {
-
+	@Test
+	public void testNegative() {
+		assertEquals(list(), PrimeNumbers.actuallyGeneratePrimes(-10));
+	}
+	
 	@Test
 	public void testZero() {
 		assertEquals(new ArrayList<Integer>(), PrimeNumbers
