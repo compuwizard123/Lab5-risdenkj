@@ -26,6 +26,11 @@ public class TestGeneratePrimes {
 		assertEquals(list(2), PrimeNumbers.actuallyGeneratePrimes(3));
 	}
 	
+	@Test
+	public void testSix() {
+		assertEquals(list(2,3,5), PrimeNumbers.actuallyGeneratePrimes(6));
+	}
+	
 	private ArrayList<Integer> list(int... ints) {
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 		for (int i : ints)
