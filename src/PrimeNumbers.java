@@ -19,6 +19,14 @@ public class PrimeNumbers {
 		return ret;
 	}
 
+	/**
+	 * Unlike the above method, this one actually generates primes instead 
+	 * of performing a prime factorization.  It will produce a list of
+	 * primes less than n.
+	 * 
+	 * @param n The ceiling.
+	 * @return A list of primes.
+	 */
 	public static ArrayList<Integer> actuallyGeneratePrimes(int n) {
 		return new ArrayList<Integer>();
 	}
