@@ -6,6 +6,10 @@ import org.junit.Test;
 
 public class TestGeneratePrimes {
 
+	@Test
+	public void testZero() {
+		assertEquals(new ArrayList<Integer>(), PrimeNumbers.actuallyGeneratePrimes(0));
+	}
 	
 	private ArrayList<Integer> list(int... ints) {
 		ArrayList<Integer> ret = new ArrayList<Integer>();
