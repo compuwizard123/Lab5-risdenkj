@@ -34,7 +34,7 @@ public class PrimeNumbers {
 		}
 		for(int i = 3; i < n; i+=2) {
 			boolean prime = true;
-			for(int j = 3; i < j; j+=2) {
+			for(int j = 3; j < i; j+=2) {
 				if((i%j) == 0) {
 					prime = false;
 					break;
