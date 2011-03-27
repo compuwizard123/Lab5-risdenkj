@@ -9,7 +9,7 @@ import org.junit.Test;
 public class PrimeFactorsTest {
 	@Test
 	public void testJUnit() {
-		assertTrue("The compuler isn't feeling well today...", true);
+		assertTrue("The computer isn't feeling well today...", true);
 	}
 
 	@Test
