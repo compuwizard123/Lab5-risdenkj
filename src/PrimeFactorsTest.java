@@ -19,7 +19,7 @@ public class PrimeFactorsTest {
 	
 	@Test
 	public void testTwo() {
-		assertEquals(list(3), PrimeNumbers.generatePrimes(2));
+		assertEquals(list(2), PrimeNumbers.generatePrimes(2));
 	}
 	
 	private ArrayList<Integer> list(int... ints) {
